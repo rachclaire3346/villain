@@ -14,6 +14,9 @@
 
         <!-- Styles -->
         <style>
+
+            @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
             html, body {
                 background-color: #eae3ea;
                 color: #636b6f;
@@ -51,12 +54,14 @@
                 color: #A2C5AC;
                 font-size: 84px;
                 padding-top: 170px;
+                font-family: 'Oswald', sans-serif;
             }
 
             .subtitle {
                 font-size: 48px;
                 font-weight: bold;
                 color: #b56357;
+                font-family: 'Lato', sans-serif;
             }
 
             .links > a {
