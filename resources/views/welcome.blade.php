@@ -48,7 +48,7 @@
             }
 
             .title {
-                color: #b4dbc0;
+                color: #A2C5AC;
                 font-size: 84px;
                 padding-top: 170px;
             }
@@ -80,6 +80,7 @@
                 width: 900px;
                 border-style: solid;
                 border-width: 15px;
+                margin-top: 25px;
             }
 
 
