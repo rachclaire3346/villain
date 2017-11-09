@@ -27,8 +27,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'Please take out the recycling and wash the Grumobile. Thanks!',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -38,8 +38,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'Please feed Kyle and sweep the secret lab. Thank you!',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -49,8 +49,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'Please rake the leaves and charge the laser cannon. I appreciate you!',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -60,8 +60,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'I\'m going to get you, you little yellow weirdo!',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -71,8 +71,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'I\'m going to get you, you little yellow weirdo!',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -82,8 +82,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'I\'m going to get you, you little yellow weirdo!',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -93,8 +93,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'I\'m going to get you, you big weirdo!',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -104,8 +104,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'Hello there. I noticed that you left your car in my parking spot again. Even though I am now a Good Guy, the Villain Code still applies (see Article 7). Thank you for keeping this in mind in the future. PS. I have reported you to HQ. Have a nice day.',
         'is_read' => false,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -115,8 +115,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'Coopee linda Gelato!',
         'is_read' => true,
         'is_starred' =>true,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
       DB::table('messages')->insert([
@@ -126,8 +126,8 @@ class MessagesTableSeeder extends Seeder
         'body' => 'Coopee linda Gelato!',
         'is_read' => true,
         'is_starred' =>false,
-        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'created_at' => Carbon::now()->format('d/m/y'),
+        'updated_at' => Carbon::now()->format('d/m/y')
       ]);
 
     }

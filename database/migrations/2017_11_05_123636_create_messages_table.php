@@ -23,7 +23,7 @@ class CreateMessagesTable extends Migration
             $table->text('body');
             $table->boolean('is_read')->default(false);
             $table->boolean('is_starred')->default(false);
-            $table->timestamps();
+            $table->nullabletimestamps();
         });
     }
 

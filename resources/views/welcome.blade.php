@@ -10,6 +10,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <script src="https://use.fontawesome.com/b0562d97f8.js"></script>
+
         <!-- Styles -->
         <style>
             html, body {
