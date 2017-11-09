@@ -1,3 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <style>
+            html, body {
+                background-color: #eae3ea;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                color: #b4dbc0;
+                font-size: 84px;
+                padding-top: 170px;
+            }
+
+            .subtitle {
+                font-size: 48px;
+                font-weight: bold;
+                color: #b56357;
+            }
+
+            .links > a {
+                color: #b56357;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+            .mainpage {
+                background-color: #eae3ea;
+                border: #a7b3a5;
+                height: 500px;
+                width: 900px;
+                border-style: solid;
+                border-width: 15px;
+            }
+
+
+        </style>
+</head>
+<body>
+
+
 @extends('layouts.app')
 
 @section('content')
@@ -44,3 +124,9 @@
     </div>
 </div>
 @endsection
+
+</body>
+</html>
+
+
+

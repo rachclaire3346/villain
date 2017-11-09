@@ -15,7 +15,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #eae3ea;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -48,17 +48,19 @@
             }
 
             .title {
+                color: #b4dbc0;
                 font-size: 84px;
+                padding-top: 170px;
             }
 
             .subtitle {
                 font-size: 48px;
                 font-weight: bold;
-                color: red;
+                color: #b56357;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #b56357;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -70,6 +72,17 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .mainpage {
+                background-color: #eae3ea;
+                border: #a7b3a5;
+                height: 500px;
+                width: 900px;
+                border-style: solid;
+                border-width: 15px;
+            }
+
+
         </style>
     </head>
     <body>
@@ -86,11 +99,15 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Villain Mail
-                </div>
-                <div class="subtitle">
-                    Keep Out!
+                <div class="container mainpage">
+                    <div class="container mainpage2">
+                        <div class="title m-b-md">
+                            <strong>Villain Mail</strong>
+                        </div>
+                        <div class="subtitle">
+                            Keep Out!
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
